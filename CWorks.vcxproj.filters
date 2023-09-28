@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\CW1">
+      <UniqueIdentifier>{a2b6e637-b0a6-4eec-9bb2-fc818560e2a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\CW2">
+      <UniqueIdentifier>{053bed14-c5af-42d3-b68a-dc49c688777f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\CW3">
+      <UniqueIdentifier>{f38deec5-b354-4538-a1c4-9ccf85261b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\CW4">
+      <UniqueIdentifier>{cd7bafb1-3220-4191-b8b5-33fb2d9d0217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\CW2">
+      <UniqueIdentifier>{c9adee04-532c-4ed8-8fb5-f20ffe13ee82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\CW3">
+      <UniqueIdentifier>{2c59f8a2-7d42-4d1b-8162-a615c00ab140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\CW1">
+      <UniqueIdentifier>{b1c2936e-a0c8-4768-a1d6-0d5aee4eb474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\CW4">
+      <UniqueIdentifier>{65c5c24f-6e48-41f6-8178-72a4afa84de8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="start.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="flight.cpp">
+      <Filter>Исходные файлы\CW1</Filter>
+    </ClCompile>
+    <ClCompile Include="cw_info.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="cw2_functions.cpp">
+      <Filter>Исходные файлы\CW2</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="cw1_functions.cpp">
+      <Filter>Исходные файлы\CW1</Filter>
+    </ClCompile>
+    <ClCompile Include="tests_cw1.cpp">
+      <Filter>Исходные файлы\CW1</Filter>
+    </ClCompile>
+    <ClCompile Include="mammal.cpp">
+      <Filter>Исходные файлы\CW2</Filter>
+    </ClCompile>
+    <ClCompile Include="tests_cw2.cpp">
+      <Filter>Исходные файлы\CW2</Filter>
+    </ClCompile>
+    <ClCompile Include="filefunctions_cw1.cpp">
+      <Filter>Исходные файлы\CW1</Filter>
+    </ClCompile>
+    <ClCompile Include="filefunctions_cw2.cpp">
+      <Filter>Исходные файлы\CW2</Filter>
+    </ClCompile>
+    <ClCompile Include="predator.cpp">
+      <Filter>Исходные файлы\CW2</Filter>
+    </ClCompile>
+    <ClCompile Include="ISort.cpp">
+      <Filter>Исходные файлы\CW3</Filter>
+    </ClCompile>
+    <ClCompile Include="filefunctions_cw3.cpp">
+      <Filter>Исходные файлы\CW3</Filter>
+    </ClCompile>
+    <ClCompile Include="tests_cw3.cpp">
+      <Filter>Исходные файлы\CW3</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Исходные файлы\CW3</Filter>
+    </ClCompile>
+    <ClCompile Include="cw4_functions.cpp">
+      <Filter>Исходные файлы\CW4</Filter>
+    </ClCompile>
+    <ClCompile Include="filefunctions_cw4.cpp">
+      <Filter>Исходные файлы\CW4</Filter>
+    </ClCompile>
+    <ClCompile Include="tests_cw4.cpp">
+      <Filter>Исходные файлы\CW4</Filter>
+    </ClCompile>
+    <ClCompile Include="cw3_functions.cpp">
+      <Filter>Исходные файлы\CW3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="start.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="flight.h">
+      <Filter>Файлы заголовков\CW1</Filter>
+    </ClInclude>
+    <ClInclude Include="cw_info.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="cw2_functions.h">
+      <Filter>Файлы заголовков\CW2</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="cw1_functions.h">
+      <Filter>Файлы заголовков\CW1</Filter>
+    </ClInclude>
+    <ClInclude Include="tests_cw1.h">
+      <Filter>Файлы заголовков\CW1</Filter>
+    </ClInclude>
+    <ClInclude Include="mammal.h">
+      <Filter>Файлы заголовков\CW2</Filter>
+    </ClInclude>
+    <ClInclude Include="tests_cw2.h">
+      <Filter>Файлы заголовков\CW2</Filter>
+    </ClInclude>
+    <ClInclude Include="filefunctions_cw1.h">
+      <Filter>Файлы заголовков\CW1</Filter>
+    </ClInclude>
+    <ClInclude Include="filefunctions_cw2.h">
+      <Filter>Файлы заголовков\CW2</Filter>
+    </ClInclude>
+    <ClInclude Include="predator.h">
+      <Filter>Файлы заголовков\CW2</Filter>
+    </ClInclude>
+    <ClInclude Include="ISort.h">
+      <Filter>Файлы заголовков\CW3</Filter>
+    </ClInclude>
+    <ClInclude Include="cw3_functions.h">
+      <Filter>Файлы заголовков\CW3</Filter>
+    </ClInclude>
+    <ClInclude Include="filefunctions_cw3.h">
+      <Filter>Файлы заголовков\CW3</Filter>
+    </ClInclude>
+    <ClInclude Include="tests_cw3.h">
+      <Filter>Файлы заголовков\CW3</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Файлы заголовков\CW3</Filter>
+    </ClInclude>
+    <ClInclude Include="cw4_functions.h">
+      <Filter>Файлы заголовков\CW4</Filter>
+    </ClInclude>
+    <ClInclude Include="filefunctions_cw4.h">
+      <Filter>Файлы заголовков\CW4</Filter>
+    </ClInclude>
+    <ClInclude Include="tests_cw4.h">
+      <Filter>Файлы заголовков\CW4</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
